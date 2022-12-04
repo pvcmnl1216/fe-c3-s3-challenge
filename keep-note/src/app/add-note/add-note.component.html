@@ -1,0 +1,9 @@
+<h2 id="addnote">Add New Notes</h2>
+<form>
+    <input type="text" placeholder="ID" #id>
+<input type="text" placeholder="Title" name="name" #name>
+<input type="text" placeholder="Content" name="content" #content>
+
+    
+<button (click)="saveFruit(id.value, name.value, content.value)">Save</button>
+</form>
